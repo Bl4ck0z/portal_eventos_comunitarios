@@ -16,8 +16,3 @@ Este proyecto es un portal web para la gestión de eventos, donde los usuarios p
 - **Comentarios y Valoraciones**: Los usuarios pueden dejar comentarios y valoraciones sobre los eventos.
 - **Buscador y Filtros**: Funcionalidad para buscar eventos por fecha, categoría y ubicación.
 - **Sección de Contacto**: Formulario para que los usuarios envíen consultas o sugerencias.
-
-## Estructura del Proyecto
-
-
-
