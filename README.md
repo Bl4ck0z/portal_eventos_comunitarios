@@ -2,28 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto es un portal web para la gestión de eventos, donde los usuarios pueden registrarse, iniciar sesión, inscribirse en eventos, dejar comentarios y valoraciones. La aplicación ha sido desarrollada y probada inicialmente en un entorno local y posteriormente se ha subido a un servidor utilizando cPanel.
-
-## Funcionalidades
-
-- **Página de Inicio**: Presenta una breve descripción del portal y acceso a eventos destacados.
-- **Registro y Autenticación**: Permite a los usuarios registrarse y acceder a su cuenta.
-- **Gestión de Eventos**:
-  - Creación, lectura, actualización y eliminación de eventos (solo para administradores).
-  - Visualización de detalles del evento (fecha, ubicación, descripción, etc.).
-  - Inscripción en eventos por parte de los usuarios.
-- **Interfaz de Usuario**: Diseño responsivo y atractivo utilizando frameworks CSS como Bootstrap o Tailwind.
-- **Comentarios y Valoraciones**: Los usuarios pueden dejar comentarios y valoraciones sobre los eventos.
-- **Buscador y Filtros**: Funcionalidad para buscar eventos por fecha, categoría y ubicación.
-- **Sección de Contacto**: Formulario para que los usuarios envíen consultas o sugerencias.
-
-# Portal de Eventos
-
-## Descripción del Proyecto
-
-El **Portal de Eventos** es una aplicación web diseñada para la gestión integral de eventos. Los usuarios pueden registrarse, iniciar sesión, inscribirse en eventos, dejar comentarios y valoraciones, y mucho más. Desarrollado inicialmente en un entorno local, el proyecto ha sido probado exhaustivamente antes de su despliegue final en un servidor mediante cPanel, asegurando su estabilidad y correcto funcionamiento en producción.
-
-Este proyecto está orientado a ofrecer una experiencia de usuario atractiva y responsiva, con funcionalidades avanzadas para la gestión de eventos tanto para administradores como para usuarios regulares.
+El **Portal de Eventos** es una aplicación web diseñada para la gestión integral de eventos. Los usuarios pueden registrarse, iniciar sesión, inscribirse en eventos, dejar comentarios y valoraciones, y mucho más. Desarrollado inicialmente en un entorno local, el proyecto ha sido probado exhaustivamente antes de su despliegue final en un servidor mediante cPanel.
 
 ## Funcionalidades
 
@@ -82,40 +61,124 @@ Este proyecto está orientado a ofrecer una experiencia de usuario atractiva y r
 ## Estructura del Proyecto
 
 ```bash
-├── /assets                     # Recursos estáticos (CSS, JS, imágenes)
-│   ├── /css                    # Archivos CSS
+├── /assets                         # Recursos estáticos (CSS, JS, imágenes)
+│   ├── /css                        # Archivos CSS
 │   │   └── styles.css
-│   ├── /js                     # Archivos JavaScript
+│   │   └── bootstrap-grid.css.map
+│   │   └── bootstrap-grid.min.css
+│   │   └── bootstrap-grid.min.css.map
+│   │   └── bootstrap-grid.rtl.css
+│   │   └── bootstrap-grid.rtl.css.map
+│   │   └── bootstrap-grid.rtl.min.css
+│   │   └── bootstrap-grid.rtl.min.css.map
+│   │   └── bootstrap-reboot.css
+│   │   └── bootstrap-reboot.css.map
+│   │   └── bootstrap-reboot.min.css
+│   │   └── bootstrap-reboot.min.css.map
+│   │   └── bootstrap-reboot.rtl.css
+│   │   └── bootstrap-reboot.rtl.css.map
+│   │   └── bootstrap-reboot.rtl.min.css
+│   │   └── bootstrap-reboot.rtl.min.css.map
+│   │   └── bootstrap-utilities.css
+│   │   └── bootstrap-utilities.css.map
+│   │   └── bootstrap-utilities.min.css
+│   │   └── bootstrap-utilities.min.css.map
+│   │   └── bootstrap-utilities.rtl.css
+│   │   └── bootstrap-utilities.rtl.css.map
+│   │   └── bootstrap-utilities.rtl.min.css
+│   │   └── bootstrap-utilities.rtl.min.css.map
+│   │   └── bootstrap.css
+│   │   └── bootstrap.css.map
+│   │   └── bootstrap.min.css
+│   │   └── bootstrap.min.css.map
+│   │   └── bootstrap.rtl.css
+│   │   └── bootstrap.rtl.css.map
+│   │   └── bootstrap.rtl.min.css
+│   │   └── bootstrap.rtl.min.css.map
+│   ├── /js                         # Archivos JavaScript
 │   │   └── scripts.js
-│   └── /images                 # Imágenes del proyecto
-├── /config                     # Configuraciones del proyecto
-│   ├── config.php              # Configuración de la conexión a la base de datos
-│   └── db_connection.php       # Archivo para la conexión a la base de datos
-├── /includes                   # Archivos de inclusión
-│   ├── header.php              # Encabezado común del sitio
-│   └── footer.php              # Pie de página común del sitio
-├── /node_modules               # Dependencias de Node.js (si aplica)
-├── /database                   # Base de datos
-│   └── portal_eventos_db.sql   # Archivo con la base de datos exportada
-├── /src                        # Código fuente del proyecto
-│   ├── /controllers            # Controladores que manejan la lógica de negocio
-│   ├── /models                 # Modelos para manejar datos (si aplica)
-│   └── /views                  # Vistas o páginas del sitio
-│       ├── index.php           # Página de inicio
-│       ├── registro.php        # Página de registro de usuario
-│       ├── login.php           # Página de inicio de sesión
-│       ├── eventos.php         # Página principal de eventos
-│       ├── eventos_detalle.php # Detalles de eventos
-│       ├── contacto.php        # Página de contacto
-│       ├── mis_eventos.php     # Página para ver eventos del usuario
-│       ├── inscribirse_evento.php # Página para inscribirse a un evento
-│       ├── no_access.php       # Página de acceso denegado
-│       ├── eliminar_evento.php # Página para eliminar evento
-│       ├── eliminar_usuario.php # Página para eliminar usuario
-│       └── cancelar_inscripcion.php # Página para cancelar inscripción
-├── /utils                      # Funciones utilitarias (si tienes)
-├── /tests                      # Archivos de pruebas (si tienes pruebas)
-├── package-lock.json            # Archivo de bloqueo de paquetes
-├── package.json                 # Dependencias y scripts de Node.js
-├── README.md                    # Documentación del proyecto
-└── .gitignore                   # Archivos y carpetas a ignorar por Git
+│   │   └── bootstrap.bundle.js
+│   │   └── bootstrap.bundle.js.map
+│   │   └── bootstrap.bundle.min.js
+│   │   └── bootstrap.bundle.min.js.map
+│   │   └── bootstrap.esm.js
+│   │   └── bootstrap.esm.js.map
+│   │   └── bootstrap.esm.min.js
+│   │   └── bootstrap.esm.min.js.map
+│   │   └── bootstrap.js
+│   │   └── bootstrap.js.map
+│   │   └── bootstrap.min.js
+│   │   └── bootstrap.min.js.map
+│   └── /images                     # Imágenes del proyecto
+│       └── event_background.jpg
+│       └── event_placeholder.jpg
+├── /config                         # Configuraciones del proyecto
+│   ├── config.php                  # Configuración principal
+│   └── db_connection.php           # Archivo para la conexión a la base de datos
+├── /includes                       # Archivos de inclusión
+│   ├── header.php                  # Encabezado común del sitio
+│   └── footer.php                  # Pie de página común del sitio
+├── /database                       # Base de datos
+│   └── portal_eventos_db.sql       # Archivo con la base de datos exportada
+├── /src                            # Código fuente del proyecto
+│   ├── /controllers                # Controladores
+│   │   └── EventController.php
+│   ├── /models                     # Modelos de datos (si aplica)
+│   └── /views                      # Vistas o páginas del sitio
+│       ├── contacto.php
+│       ├── contacto_gestion.php
+│       ├── evento.php
+│       ├── evento_cancelar.php
+│       ├── evento_comentar.php
+│       ├── evento_crear.php
+│       ├── evento_detalles.php
+│       ├── evento_eliminar.php
+│       ├── evento_gestion.php
+│       ├── evento_inscribirse.php
+│       ├── evento_lista.php
+│       ├── index.php
+│       ├── login.php
+│       ├── logout.php
+│       ├── no_access.php
+│       ├── register.php
+│       ├── usuario_desabilitar.php
+│       ├── usuario_gestion.php
+│       └── usuario_habilitar.php
+├── /utils                          # Funciones utilitarias (si tienes)
+├── /tests                          # Archivos de pruebas (si tienes)
+├── package-lock.json               # Archivo de bloqueo de paquetes
+├── package.json                    # Dependencias y scripts de Node.js
+├── README.md                       # Documentación del proyecto
+└── .gitignore                      # Archivos y carpetas a ignorar por Git
+```
+
+## Instalación y Configuración
+
+### Requisitos Previos
+
+- Servidor con soporte para PHP y MySQL.
+- Opcionalmente, Node.js para gestionar dependencias de frontend.
+
+### Pasos para la Instalación
+
+1. Clonar el repositorio desde GitHub.
+2. Configurar la base de datos con el archivo `portal_eventos_db.sql` ubicado en la carpeta `/database`.
+3. Modificar los archivos de configuración en `/config/config.php` para adaptarlos a las credenciales de tu servidor.
+4. Desplegar el proyecto en el servidor utilizando cPanel u otro método preferido.
+5. Abrir el navegador y acceder al sitio para verificar la instalación.
+
+## Pruebas
+
+- Se incluyen pruebas unitarias básicas en la carpeta `/tests` para asegurar el correcto funcionamiento de las principales funcionalidades del sistema.
+
+## Documentación
+
+El código está comentado y organizado de manera clara para facilitar la lectura y comprensión. Además, se provee una **documentación interna** sobre las principales clases y métodos utilizados.
+
+## Contribuciones
+
+Este proyecto es de código abierto. Si deseas contribuir:
+
+1. Haz un **fork** del repositorio.
+2. Crea una rama con tu nueva funcionalidad o mejora (`git checkout -b feature/nueva-funcionalidad`).
+3. Haz un **pull request** cuando esté listo para revisión.
