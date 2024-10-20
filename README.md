@@ -167,14 +167,6 @@ El **Portal de Eventos** es una aplicación web diseñada para la gestión integ
 4. Desplegar el proyecto en el servidor utilizando cPanel u otro método preferido.
 5. Abrir el navegador y acceder al sitio para verificar la instalación.
 
-## Pruebas
-
-- Se incluyen pruebas unitarias básicas en la carpeta `/tests` para asegurar el correcto funcionamiento de las principales funcionalidades del sistema.
-
-## Documentación
-
-El código está comentado y organizado de manera clara para facilitar la lectura y comprensión. Además, se provee una **documentación interna** sobre las principales clases y métodos utilizados.
-
 ## Contribuciones
 
 Este proyecto es de código abierto. Si deseas contribuir:
