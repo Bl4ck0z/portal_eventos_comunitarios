@@ -1,9 +1,8 @@
-/mi-proyecto
 ├── /assets                     # Recursos estáticos (CSS, JS, imágenes)
 │   ├── /css                   # Archivos CSS
 │   │   └── styles.css
 │   ├── /js                    # Archivos JavaScript
-│   │   └── scripts.js         # Archivos JS si necesitas
+│   │   └── scripts.js
 │   └── /images                # Imágenes del proyecto
 ├── /config                     # Configuraciones del proyecto
 │   ├── config.php             # Configuración de la conexión a la base de datos
@@ -23,8 +22,8 @@
 │   │   ├── login.php           # Página de inicio de sesión
 │   │   ├── eventos.php         # Página principal de eventos
 │   │   ├── eventos_detalle.php # Detalles de eventos
-│   │   ├── contacto.php         # Página de contacto
-│   │   ├── mis_eventos.php      # Página para ver eventos del usuario
+│   │   ├── contacto.php        # Página de contacto
+│   │   ├── mis_eventos.php     # Página para ver eventos del usuario
 │   │   ├── inscribirse_evento.php # Página para inscribirse a un evento
 │   │   ├── no_access.php       # Página de acceso denegado
 │   │   ├── eliminar_evento.php  # Página para eliminar evento
